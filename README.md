@@ -245,3 +245,4 @@ When the booking is cancelled successfully, the route handler redirects the appl
 
 ## Feedback
 Rate this sample app [here](https://delighted.com/t/Z1xmKSqy)!# booking
+# booking
