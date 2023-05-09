@@ -84,8 +84,12 @@
         <input class="half-width" type="text" name="givenName" required maxlength="50" placeholder="First name" />
         <input class="half-width" type="text" name="familyName" required maxlength="50" placeholder="Last name" />
         <input class="half-width" name="emailAddress" required maxlength="320" placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Invalid email address" />
-        <textarea name="customerNote" placeholder="Appointment notes (optional)" maxlength="1500" rows="5"></textarea>
-
+        <input id="phoneNumber" maxlength="16" type="mobile" name="mobile" placeholder="(555)-555-5555" required="yes" control-id="ControlID-10"> 
+  
+        <input type="email" name="email" placeholder="Email" required="yes" control-id="ControlID-11">
+          <input type="street" placeholder="Street" control-id="ControlID-12">
+           <input type="city" class="form-control" id="inputCity" placeholder="City" control-id="ControlID-13"> <input type="state" class="form-control" id="inputState" placeholder="State" control-id="ControlID-14"> <input type="zip" class="form-control" id="inputZip" placeholder="Zip" control-id="ControlID-15"> 
+          <textarea name="customerNote" placeholder="Appointment notes (optional)" maxlength="1500" rows="5"></textarea>
         <button class="button btn-primary" type="submit">Book appointment</button>
       </form>
     </div>

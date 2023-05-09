@@ -501,7 +501,7 @@
   }
   
   .sq-form-control {
-    display: flex;
+    display: inline-block;
     flex-flow: row wrap;
   }
   
